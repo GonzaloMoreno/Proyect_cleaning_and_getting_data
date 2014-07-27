@@ -1,16 +1,32 @@
-specdata<-setwd ("C:/Users/GMORENO/Documents/R/cleaning data/")
+## declare library (plyr)
+
 library(plyr)
 
+## Set directory
+
+specdata<-setwd ("C:/Users/GMORENO/Documents/R/cleaning data/")
+
+## if it is needed, create a directory called "proyect"
 if(!file.exists("proyecto")){
   
   dir.create("proyecto")  
   
 }
 
+## Copy link
+
 arch_url<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+
+## Change directory
+
 specdata<-setwd ("C:/Users/GMORENO/Documents/R/cleaning data/proyecto/")
 
+## Download file
+
 download.file(arch_url, destfile="./dataset.zip")
+
+## read training and test files
+
 training<- read.table(unz("dataset.zip", "UCI HAR Dataset/train/X_train.txt"))
 test<- read.table(unz("dataset.zip", "UCI HAR Dataset/test/X_test.txt"))
 
@@ -51,6 +67,8 @@ Datajoin2<-cbind(Datajoin,subject)
 ## Select de columns needed
 mean_columns=c(1:3, 41:43, 81:83, 121:123, 161:163, 201, 214,227, 240, 253, 266:268, 294:296,345:347,373:375,424:426,452:454,503,516,529, 542)
 
-tidydata2 <-aggregate(Datajoin2[,mean_columns], by=list(Datajoin2[,562],Datajoin2[,563]), FUN=mean)
+## create new tody data
 
+tidydata2 <-aggregate(Datajoin2[,mean_columns], by=list(Datajoin2[,562],Datajoin2[,563]), FUN=mean)
+tidytable<-write.csv(tidydata2)
 
