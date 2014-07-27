@@ -1,0 +1,645 @@
+####################################################################################################################
+###                                      INDEX                                                                   ###
+####################################################################################################################
+
+1) Summary
+2) Information about Variable
+3) Study Design
+
+
+####################################################################################################################
+###                                       SUMMARY                                                                ###
+####################################################################################################################
+
+In this proyect I use all the next variables:
+
+1) Mean Data: V1,V2,V3,V81,V81,V83,V121,V122,V123,V161,V162,V163,V201,V214,V227,V240,V253,V266,V267,V268,V294,V295,
+V296,V345,V346,V347,V373,V374,V375,V424,V425,V426,V452,V453,V454,V503,V516,V529, V542.
+
+2) Standard Deviation: V4,V5,V6,V84,V85,V86,V124,V125,V126,V164,V165,V166,V202,V217,V228,V241,V254,V269,V270,V271,V348
+V349,VV350,V427,V428,V428,V504,V517,V530,V543
+
+
+
+####################################################################################################################
+##           INFORMATION ABOUT VARIABLES                                                                        ####
+####################################################################################################################
+
+V1: It is the mean value of BodyAcc-X. Its name is: tBodyAcc-mean()-X
+v2: It is the mean value of BodyAcc-Y. Its name is: tBodyAcc-mean()-Y
+V3: It is the mean value of BodyAcc-Z. Its name is: tBodyAcc-mean()-Z
+V4: It is the standard deviation of BodyAcc-X. Its name is: tBodyAcc-std()-X
+V5: It is the standard deviation of BodyAcc-Y. Its name is: tBodyAcc-std()-Y
+V6: It is the standard deviation of BodyAcc-Z. Its name is: tBodyAcc-std()-Z
+V7: It is the Median absolute deviation  of BodyAcc-X. Its name is: tBodyAcc-mad()-X
+V8: It is the Median absolute deviation  of BodyAcc-Y. Its name is: tBodyAcc-mad()-Y
+V9: It is the Median absolute deviation  of BodyAcc-Z. Its name is: tBodyAcc-mad()-Z
+V10: It is the Largest value in array of BodyAcc-X. Its name is: tBodyAcc-max()-X
+V11: It is the Largest value in array of BodyAcc-Y. Its name is: tBodyAcc-max()-Y
+V12: It is the Largest value in array of BodyAcc-Z. Its name is: tBodyAcc-max()-Z
+V13: It is the Smallest value in array of BodyAcc-X. Its name is: tBodyAcc-min()-X
+V14: It is the Smallest value in array of BodyAcc-Y. Its name is: tBodyAcc-min()-Y
+V15: It is the Smallest value in array of BodyAcc-Z. Its name is: tBodyAcc-min()-Z
+V16: It is the Signal magnitude area of BodyAcc. Its name is: tBodyAcc-sma()
+V17: It is the Energy measure. Sum of the squares divided by the number of values. of BodyAcc-X. Its name is: tBodyAcc-energy()-X
+V18: It is the Energy measure. Sum of the squares divided by the number of values. of BodyAcc-Y. Its name is: tBodyAcc-energy()-Y
+V19: It is the Energy measure. Sum of the squares divided by the number of values. of BodyAcc-Z. Its name is: tBodyAcc-energy()-Z
+V20: It is the Interquartile range  of BodyAcc-X. Its name is: tBodyAcc-iqr()-X
+V21: It is the Interquartile range  of BodyAcc-Y. Its name is: tBodyAcc-iqr()-Y
+V22: It is the Interquartile range  of BodyAcc-Z. Its name is: tBodyAcc-iqr()-Z
+V23: It is the Signal entropy of BodyAcc-X. Its name is: tBodyAcc-entropy()-X
+V24: It is the Signal entropy of BodyAcc-Y. Its name is: tBodyAcc-entropy()-Y
+V25: It is the Signal entropy of BodyAcc-Z. Its name is: tBodyAcc-entropy()-Z
+V26: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAcc-X,1. Its name is: tBodyAcc-arCoeff()-X,1
+V27: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAcc-X,2. Its name is: tBodyAcc-arCoeff()-X,2
+V28: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAcc-X,3. Its name is: tBodyAcc-arCoeff()-X,3
+V29: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAcc-X,4. Its name is: tBodyAcc-arCoeff()-X,4
+V30: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAcc-Y,1. Its name is: tBodyAcc-arCoeff()-Y,1
+V31: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAcc-Y,2. Its name is: tBodyAcc-arCoeff()-Y,2
+V32: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAcc-Y,3. Its name is: tBodyAcc-arCoeff()-Y,3
+V33: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAcc-Y,4. Its name is: tBodyAcc-arCoeff()-Y,4
+V34: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAcc-Z,1. Its name is: tBodyAcc-arCoeff()-Z,1
+V35: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAcc-Z,2. Its name is: tBodyAcc-arCoeff()-Z,2
+V36: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAcc-Z,3. Its name is: tBodyAcc-arCoeff()-Z,3
+V37: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAcc-Z,4. Its name is: tBodyAcc-arCoeff()-Z,4
+V38: It is the correlation of BodyAcc-X,Y. Its name is: tBodyAcc-correlation()-X,Y
+V39: It is the correlation of BodyAcc-X,Z. Its name is: tBodyAcc-correlation()-X,Z
+V40: It is the correlation of BodyAcc-Y,Z. Its name is: tBodyAcc-correlation()-Y,Z
+V41: It is the mean value of GravityAcc-X. Its name is: tGravityAcc-mean()-X
+V42: It is the mean value of GravityAcc-Y. Its name is: tGravityAcc-mean()-Y
+V43: It is the mean value of GravityAcc-Z. Its name is: tGravityAcc-mean()-Z
+V44: It is the standard deviation of GravityAcc-X. Its name is: tGravityAcc-std()-X
+V45: It is the standard deviation of GravityAcc-Y. Its name is: tGravityAcc-std()-Y
+V46: It is the standard deviation of GravityAcc-Z. Its name is: tGravityAcc-std()-Z
+V47: It is the Median absolute deviation  of GravityAcc-X. Its name is: tGravityAcc-mad()-X
+V48: It is the Median absolute deviation  of GravityAcc-Y. Its name is: tGravityAcc-mad()-Y
+V49: It is the Median absolute deviation  of GravityAcc-Z. Its name is: tGravityAcc-mad()-Z
+V50: It is the Largest value in array of GravityAcc-X. Its name is: tGravityAcc-max()-X
+V51: It is the Largest value in array of GravityAcc-Y. Its name is: tGravityAcc-max()-Y
+V52: It is the Largest value in array of GravityAcc-Z. Its name is: tGravityAcc-max()-Z
+V53: It is the Smallest value in array of GravityAcc-X. Its name is: tGravityAcc-min()-X
+V54: It is the Smallest value in array of GravityAcc-Y. Its name is: tGravityAcc-min()-Y
+V55: It is the Smallest value in array of GravityAcc-Z. Its name is: tGravityAcc-min()-Z
+V56: It is the Signal magnitude area of GravityAcc. Its name is: tGravityAcc-sma()
+V57: It is the Energy measure. Sum of the squares divided by the number of values. of GravityAcc-X. Its name is: tGravityAcc-energy()-X
+V58: It is the Energy measure. Sum of the squares divided by the number of values. of GravityAcc-Y. Its name is: tGravityAcc-energy()-Y
+V59: It is the Energy measure. Sum of the squares divided by the number of values. of GravityAcc-Z. Its name is: tGravityAcc-energy()-Z
+V60: It is the Interquartile range  of GravityAcc-X. Its name is: tGravityAcc-iqr()-X
+V61: It is the Interquartile range  of GravityAcc-Y. Its name is: tGravityAcc-iqr()-Y
+V62: It is the Interquartile range  of GravityAcc-Z. Its name is: tGravityAcc-iqr()-Z
+V63: It is the Signal entropy of GravityAcc-X. Its name is: tGravityAcc-entropy()-X
+V64: It is the Signal entropy of GravityAcc-Y. Its name is: tGravityAcc-entropy()-Y
+V65: It is the Signal entropy of GravityAcc-Z. Its name is: tGravityAcc-entropy()-Z
+V66: It is the Autorregresion coefficients with Burg order equal to 4 of GravityAcc-X,1. Its name is: tGravityAcc-arCoeff()-X,1
+V67: It is the Autorregresion coefficients with Burg order equal to 4 of GravityAcc-X,2. Its name is: tGravityAcc-arCoeff()-X,2
+V68: It is the Autorregresion coefficients with Burg order equal to 4 of GravityAcc-X,3. Its name is: tGravityAcc-arCoeff()-X,3
+V69: It is the Autorregresion coefficients with Burg order equal to 4 of GravityAcc-X,4. Its name is: tGravityAcc-arCoeff()-X,4
+V70: It is the Autorregresion coefficients with Burg order equal to 4 of GravityAcc-Y,1. Its name is: tGravityAcc-arCoeff()-Y,1
+V71: It is the Autorregresion coefficients with Burg order equal to 4 of GravityAcc-Y,2. Its name is: tGravityAcc-arCoeff()-Y,2
+V72: It is the Autorregresion coefficients with Burg order equal to 4 of GravityAcc-Y,3. Its name is: tGravityAcc-arCoeff()-Y,3
+V73: It is the Autorregresion coefficients with Burg order equal to 4 of GravityAcc-Y,4. Its name is: tGravityAcc-arCoeff()-Y,4
+V74: It is the Autorregresion coefficients with Burg order equal to 4 of GravityAcc-Z,1. Its name is: tGravityAcc-arCoeff()-Z,1
+V75: It is the Autorregresion coefficients with Burg order equal to 4 of GravityAcc-Z,2. Its name is: tGravityAcc-arCoeff()-Z,2
+V76: It is the Autorregresion coefficients with Burg order equal to 4 of GravityAcc-Z,3. Its name is: tGravityAcc-arCoeff()-Z,3
+V77: It is the Autorregresion coefficients with Burg order equal to 4 of GravityAcc-Z,4. Its name is: tGravityAcc-arCoeff()-Z,4
+V78: It is the correlation of GravityAcc-X,Y. Its name is: tGravityAcc-correlation()-X,Y
+V79: It is the correlation of GravityAcc-X,Z. Its name is: tGravityAcc-correlation()-X,Z
+V80: It is the correlation of GravityAcc-Y,Z. Its name is: tGravityAcc-correlation()-Y,Z
+V81: It is the mean value of BodyAccJerk-X. Its name is: tBodyAccJerk-mean()-X
+V82: It is the mean value of BodyAccJerk-Y. Its name is: tBodyAccJerk-mean()-Y
+V83: It is the mean value of BodyAccJerk-Z. Its name is: tBodyAccJerk-mean()-Z
+V84: It is the standard deviation of BodyAccJerk-X. Its name is: tBodyAccJerk-std()-X
+V85: It is the standard deviation of BodyAccJerk-Y. Its name is: tBodyAccJerk-std()-Y
+V86: It is the standard deviation of BodyAccJerk-Z. Its name is: tBodyAccJerk-std()-Z
+V87: It is the Median absolute deviation  of BodyAccJerk-X. Its name is: tBodyAccJerk-mad()-X
+V88: It is the Median absolute deviation  of BodyAccJerk-Y. Its name is: tBodyAccJerk-mad()-Y
+V89: It is the Median absolute deviation  of BodyAccJerk-Z. Its name is: tBodyAccJerk-mad()-Z
+V90: It is the Largest value in array of BodyAccJerk-X. Its name is: tBodyAccJerk-max()-X
+V91: It is the Largest value in array of BodyAccJerk-Y. Its name is: tBodyAccJerk-max()-Y
+V92: It is the Largest value in array of BodyAccJerk-Z. Its name is: tBodyAccJerk-max()-Z
+V93: It is the Smallest value in array of BodyAccJerk-X. Its name is: tBodyAccJerk-min()-X
+V94: It is the Smallest value in array of BodyAccJerk-Y. Its name is: tBodyAccJerk-min()-Y
+V95: It is the Smallest value in array of BodyAccJerk-Z. Its name is: tBodyAccJerk-min()-Z
+V96: It is the Signal magnitude area of BodyAccJerk. Its name is: tBodyAccJerk-sma()
+V97: It is the Energy measure. Sum of the squares divided by the number of values. of BodyAccJerk-X. Its name is: tBodyAccJerk-energy()-X
+V98: It is the Energy measure. Sum of the squares divided by the number of values. of BodyAccJerk-Y. Its name is: tBodyAccJerk-energy()-Y
+V99: It is the Energy measure. Sum of the squares divided by the number of values. of BodyAccJerk-Z. Its name is: tBodyAccJerk-energy()-Z
+V100: It is the Interquartile range  of BodyAccJerk-X. Its name is: tBodyAccJerk-iqr()-X
+V101: It is the Interquartile range  of BodyAccJerk-Y. Its name is: tBodyAccJerk-iqr()-Y
+V102: It is the Interquartile range  of BodyAccJerk-Z. Its name is: tBodyAccJerk-iqr()-Z
+V103: It is the Signal entropy of BodyAccJerk-X. Its name is: tBodyAccJerk-entropy()-X
+V104: It is the Signal entropy of BodyAccJerk-Y. Its name is: tBodyAccJerk-entropy()-Y
+V105: It is the Signal entropy of BodyAccJerk-Z. Its name is: tBodyAccJerk-entropy()-Z
+V106: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccJerk-X,1. Its name is: tBodyAccJerk-arCoeff()-X,1
+V107: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccJerk-X,2. Its name is: tBodyAccJerk-arCoeff()-X,2
+V108: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccJerk-X,3. Its name is: tBodyAccJerk-arCoeff()-X,3
+V109: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccJerk-X,4. Its name is: tBodyAccJerk-arCoeff()-X,4
+V110: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccJerk-Y,1. Its name is: tBodyAccJerk-arCoeff()-Y,1
+V111: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccJerk-Y,2. Its name is: tBodyAccJerk-arCoeff()-Y,2
+V112: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccJerk-Y,3. Its name is: tBodyAccJerk-arCoeff()-Y,3
+V113: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccJerk-Y,4. Its name is: tBodyAccJerk-arCoeff()-Y,4
+V114: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccJerk-Z,1. Its name is: tBodyAccJerk-arCoeff()-Z,1
+V115: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccJerk-Z,2. Its name is: tBodyAccJerk-arCoeff()-Z,2
+V116: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccJerk-Z,3. Its name is: tBodyAccJerk-arCoeff()-Z,3
+V117: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccJerk-Z,4. Its name is: tBodyAccJerk-arCoeff()-Z,4
+V118: It is the correlation of BodyAccJerk-X,Y. Its name is: tBodyAccJerk-correlation()-X,Y
+V119: It is the correlation of BodyAccJerk-X,Z. Its name is: tBodyAccJerk-correlation()-X,Z
+V120: It is the correlation of BodyAccJerk-Y,Z. Its name is: tBodyAccJerk-correlation()-Y,Z
+V121: It is the mean value of BodyGyro-X. Its name is: tBodyGyro-mean()-X
+V122: It is the mean value of BodyGyro-Y. Its name is: tBodyGyro-mean()-Y
+V123: It is the mean value of BodyGyro-Z. Its name is: tBodyGyro-mean()-Z
+V124: It is the standard deviation of BodyGyro-X. Its name is: tBodyGyro-std()-X
+V125: It is the standard deviation of BodyGyro-Y. Its name is: tBodyGyro-std()-Y
+V126: It is the standard deviation of BodyGyro-Z. Its name is: tBodyGyro-std()-Z
+V127: It is the Median absolute deviation  of BodyGyro-X. Its name is: tBodyGyro-mad()-X
+V128: It is the Median absolute deviation  of BodyGyro-Y. Its name is: tBodyGyro-mad()-Y
+V129: It is the Median absolute deviation  of BodyGyro-Z. Its name is: tBodyGyro-mad()-Z
+V130: It is the Largest value in array of BodyGyro-X. Its name is: tBodyGyro-max()-X
+V131: It is the Largest value in array of BodyGyro-Y. Its name is: tBodyGyro-max()-Y
+V132: It is the Largest value in array of BodyGyro-Z. Its name is: tBodyGyro-max()-Z
+V133: It is the Smallest value in array of BodyGyro-X. Its name is: tBodyGyro-min()-X
+V134: It is the Smallest value in array of BodyGyro-Y. Its name is: tBodyGyro-min()-Y
+V135: It is the Smallest value in array of BodyGyro-Z. Its name is: tBodyGyro-min()-Z
+V136: It is the Signal magnitude area of BodyGyro. Its name is: tBodyGyro-sma()
+V137: It is the Energy measure. Sum of the squares divided by the number of values. of BodyGyro-X. Its name is: tBodyGyro-energy()-X
+V138: It is the Energy measure. Sum of the squares divided by the number of values. of BodyGyro-Y. Its name is: tBodyGyro-energy()-Y
+V139: It is the Energy measure. Sum of the squares divided by the number of values. of BodyGyro-Z. Its name is: tBodyGyro-energy()-Z
+V140: It is the Interquartile range  of BodyGyro-X. Its name is: tBodyGyro-iqr()-X
+V141: It is the Interquartile range  of BodyGyro-Y. Its name is: tBodyGyro-iqr()-Y
+V142: It is the Interquartile range  of BodyGyro-Z. Its name is: tBodyGyro-iqr()-Z
+V143: It is the Signal entropy of BodyGyro-X. Its name is: tBodyGyro-entropy()-X
+V144: It is the Signal entropy of BodyGyro-Y. Its name is: tBodyGyro-entropy()-Y
+V145: It is the Signal entropy of BodyGyro-Z. Its name is: tBodyGyro-entropy()-Z
+V146: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyro-X,1. Its name is: tBodyGyro-arCoeff()-X,1
+V147: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyro-X,2. Its name is: tBodyGyro-arCoeff()-X,2
+V148: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyro-X,3. Its name is: tBodyGyro-arCoeff()-X,3
+V149: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyro-X,4. Its name is: tBodyGyro-arCoeff()-X,4
+V150: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyro-Y,1. Its name is: tBodyGyro-arCoeff()-Y,1
+V151: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyro-Y,2. Its name is: tBodyGyro-arCoeff()-Y,2
+V152: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyro-Y,3. Its name is: tBodyGyro-arCoeff()-Y,3
+V153: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyro-Y,4. Its name is: tBodyGyro-arCoeff()-Y,4
+V154: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyro-Z,1. Its name is: tBodyGyro-arCoeff()-Z,1
+V155: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyro-Z,2. Its name is: tBodyGyro-arCoeff()-Z,2
+V156: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyro-Z,3. Its name is: tBodyGyro-arCoeff()-Z,3
+V157: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyro-Z,4. Its name is: tBodyGyro-arCoeff()-Z,4
+V158: It is the correlation of BodyGyro-X,Y. Its name is: tBodyGyro-correlation()-X,Y
+V159: It is the correlation of BodyGyro-X,Z. Its name is: tBodyGyro-correlation()-X,Z
+V160: It is the correlation of BodyGyro-Y,Z. Its name is: tBodyGyro-correlation()-Y,Z
+V161: It is the mean value of BodyGyroJerk-X. Its name is: tBodyGyroJerk-mean()-X
+V162: It is the mean value of BodyGyroJerk-Y. Its name is: tBodyGyroJerk-mean()-Y
+V163: It is the mean value of BodyGyroJerk-Z. Its name is: tBodyGyroJerk-mean()-Z
+V164: It is the standard deviation of BodyGyroJerk-X. Its name is: tBodyGyroJerk-std()-X
+V165: It is the standard deviation of BodyGyroJerk-Y. Its name is: tBodyGyroJerk-std()-Y
+V166: It is the standard deviation of BodyGyroJerk-Z. Its name is: tBodyGyroJerk-std()-Z
+V167: It is the Median absolute deviation  of BodyGyroJerk-X. Its name is: tBodyGyroJerk-mad()-X
+V168: It is the Median absolute deviation  of BodyGyroJerk-Y. Its name is: tBodyGyroJerk-mad()-Y
+V169: It is the Median absolute deviation  of BodyGyroJerk-Z. Its name is: tBodyGyroJerk-mad()-Z
+V170: It is the Largest value in array of BodyGyroJerk-X. Its name is: tBodyGyroJerk-max()-X
+V171: It is the Largest value in array of BodyGyroJerk-Y. Its name is: tBodyGyroJerk-max()-Y
+V172: It is the Largest value in array of BodyGyroJerk-Z. Its name is: tBodyGyroJerk-max()-Z
+V173: It is the Smallest value in array of BodyGyroJerk-X. Its name is: tBodyGyroJerk-min()-X
+V174: It is the Smallest value in array of BodyGyroJerk-Y. Its name is: tBodyGyroJerk-min()-Y
+V175: It is the Smallest value in array of BodyGyroJerk-Z. Its name is: tBodyGyroJerk-min()-Z
+V176: It is the Signal magnitude area of BodyGyroJerk. Its name is: tBodyGyroJerk-sma()
+V177: It is the Energy measure. Sum of the squares divided by the number of values. of BodyGyroJerk-X. Its name is: tBodyGyroJerk-energy()-X
+V178: It is the Energy measure. Sum of the squares divided by the number of values. of BodyGyroJerk-Y. Its name is: tBodyGyroJerk-energy()-Y
+V179: It is the Energy measure. Sum of the squares divided by the number of values. of BodyGyroJerk-Z. Its name is: tBodyGyroJerk-energy()-Z
+V180: It is the Interquartile range  of BodyGyroJerk-X. Its name is: tBodyGyroJerk-iqr()-X
+V181: It is the Interquartile range  of BodyGyroJerk-Y. Its name is: tBodyGyroJerk-iqr()-Y
+V182: It is the Interquartile range  of BodyGyroJerk-Z. Its name is: tBodyGyroJerk-iqr()-Z
+V183: It is the Signal entropy of BodyGyroJerk-X. Its name is: tBodyGyroJerk-entropy()-X
+V184: It is the Signal entropy of BodyGyroJerk-Y. Its name is: tBodyGyroJerk-entropy()-Y
+V185: It is the Signal entropy of BodyGyroJerk-Z. Its name is: tBodyGyroJerk-entropy()-Z
+V186: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroJerk-X,1. Its name is: tBodyGyroJerk-arCoeff()-X,1
+V187: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroJerk-X,2. Its name is: tBodyGyroJerk-arCoeff()-X,2
+V188: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroJerk-X,3. Its name is: tBodyGyroJerk-arCoeff()-X,3
+V189: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroJerk-X,4. Its name is: tBodyGyroJerk-arCoeff()-X,4
+V190: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroJerk-Y,1. Its name is: tBodyGyroJerk-arCoeff()-Y,1
+V191: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroJerk-Y,2. Its name is: tBodyGyroJerk-arCoeff()-Y,2
+V192: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroJerk-Y,3. Its name is: tBodyGyroJerk-arCoeff()-Y,3
+V193: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroJerk-Y,4. Its name is: tBodyGyroJerk-arCoeff()-Y,4
+V194: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroJerk-Z,1. Its name is: tBodyGyroJerk-arCoeff()-Z,1
+V195: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroJerk-Z,2. Its name is: tBodyGyroJerk-arCoeff()-Z,2
+V196: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroJerk-Z,3. Its name is: tBodyGyroJerk-arCoeff()-Z,3
+V197: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroJerk-Z,4. Its name is: tBodyGyroJerk-arCoeff()-Z,4
+V198: It is the correlation of BodyGyroJerk-X,Y. Its name is: tBodyGyroJerk-correlation()-X,Y
+V199: It is the correlation of BodyGyroJerk-X,Z. Its name is: tBodyGyroJerk-correlation()-X,Z
+V200: It is the correlation of BodyGyroJerk-Y,Z. Its name is: tBodyGyroJerk-correlation()-Y,Z
+V201: It is the mean value of BodyAccMag. Its name is: tBodyAccMag-mean()
+V202: It is the standard deviation of BodyAccMag. Its name is: tBodyAccMag-std()
+V203: It is the Median absolute deviation  of BodyAccMag. Its name is: tBodyAccMag-mad()
+V204: It is the Largest value in array of BodyAccMag. Its name is: tBodyAccMag-max()
+V205: It is the Smallest value in array of BodyAccMag. Its name is: tBodyAccMag-min()
+V206: It is the Signal magnitude area of BodyAccMag. Its name is: tBodyAccMag-sma()
+V207: It is the Energy measure. Sum of the squares divided by the number of values. of BodyAccMag. Its name is: tBodyAccMag-energy()
+V208: It is the Interquartile range  of BodyAccMag. Its name is: tBodyAccMag-iqr()
+V209: It is the Signal entropy of BodyAccMag. Its name is: tBodyAccMag-entropy()
+V210: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccMag1. Its name is: tBodyAccMag-arCoeff()1
+V211: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccMag2. Its name is: tBodyAccMag-arCoeff()2
+V212: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccMag3. Its name is: tBodyAccMag-arCoeff()3
+V213: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccMag4. Its name is: tBodyAccMag-arCoeff()4
+V214: It is the mean value of GravityAccMag. Its name is: tGravityAccMag-mean()
+V215: It is the standard deviation of GravityAccMag. Its name is: tGravityAccMag-std()
+V216: It is the Median absolute deviation  of GravityAccMag. Its name is: tGravityAccMag-mad()
+V217: It is the Largest value in array of GravityAccMag. Its name is: tGravityAccMag-max()
+V218: It is the Smallest value in array of GravityAccMag. Its name is: tGravityAccMag-min()
+V219: It is the Signal magnitude area of GravityAccMag. Its name is: tGravityAccMag-sma()
+V220: It is the Energy measure. Sum of the squares divided by the number of values. of GravityAccMag. Its name is: tGravityAccMag-energy()
+V221: It is the Interquartile range  of GravityAccMag. Its name is: tGravityAccMag-iqr()
+V222: It is the Signal entropy of GravityAccMag. Its name is: tGravityAccMag-entropy()
+V223: It is the Autorregresion coefficients with Burg order equal to 4 of GravityAccMag1. Its name is: tGravityAccMag-arCoeff()1
+V224: It is the Autorregresion coefficients with Burg order equal to 4 of GravityAccMag2. Its name is: tGravityAccMag-arCoeff()2
+V225: It is the Autorregresion coefficients with Burg order equal to 4 of GravityAccMag3. Its name is: tGravityAccMag-arCoeff()3
+V226: It is the Autorregresion coefficients with Burg order equal to 4 of GravityAccMag4. Its name is: tGravityAccMag-arCoeff()4
+V227: It is the mean value of BodyAccJerkMag. Its name is: tBodyAccJerkMag-mean()
+V228: It is the standard deviation of BodyAccJerkMag. Its name is: tBodyAccJerkMag-std()
+V229: It is the Median absolute deviation  of BodyAccJerkMag. Its name is: tBodyAccJerkMag-mad()
+V230: It is the Largest value in array of BodyAccJerkMag. Its name is: tBodyAccJerkMag-max()
+V231: It is the Smallest value in array of BodyAccJerkMag. Its name is: tBodyAccJerkMag-min()
+V232: It is the Signal magnitude area of BodyAccJerkMag. Its name is: tBodyAccJerkMag-sma()
+V233: It is the Energy measure. Sum of the squares divided by the number of values. of BodyAccJerkMag. Its name is: tBodyAccJerkMag-energy()
+V234: It is the Interquartile range  of BodyAccJerkMag. Its name is: tBodyAccJerkMag-iqr()
+V235: It is the Signal entropy of BodyAccJerkMag. Its name is: tBodyAccJerkMag-entropy()
+V236: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccJerkMag1. Its name is: tBodyAccJerkMag-arCoeff()1
+V237: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccJerkMag2. Its name is: tBodyAccJerkMag-arCoeff()2
+V238: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccJerkMag3. Its name is: tBodyAccJerkMag-arCoeff()3
+V239: It is the Autorregresion coefficients with Burg order equal to 4 of BodyAccJerkMag4. Its name is: tBodyAccJerkMag-arCoeff()4
+V240: It is the mean value of BodyGyroMag. Its name is: tBodyGyroMag-mean()
+V241: It is the standard deviation of BodyGyroMag. Its name is: tBodyGyroMag-std()
+V242: It is the Median absolute deviation  of BodyGyroMag. Its name is: tBodyGyroMag-mad()
+V243: It is the Largest value in array of BodyGyroMag. Its name is: tBodyGyroMag-max()
+V244: It is the Smallest value in array of BodyGyroMag. Its name is: tBodyGyroMag-min()
+V245: It is the Signal magnitude area of BodyGyroMag. Its name is: tBodyGyroMag-sma()
+V246: It is the Energy measure. Sum of the squares divided by the number of values. of BodyGyroMag. Its name is: tBodyGyroMag-energy()
+V247: It is the Interquartile range  of BodyGyroMag. Its name is: tBodyGyroMag-iqr()
+V248: It is the Signal entropy of BodyGyroMag. Its name is: tBodyGyroMag-entropy()
+V249: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroMag1. Its name is: tBodyGyroMag-arCoeff()1
+V250: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroMag2. Its name is: tBodyGyroMag-arCoeff()2
+V251: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroMag3. Its name is: tBodyGyroMag-arCoeff()3
+V252: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroMag4. Its name is: tBodyGyroMag-arCoeff()4
+V253: It is the mean value of BodyGyroJerkMag. Its name is: tBodyGyroJerkMag-mean()
+V254: It is the standard deviation of BodyGyroJerkMag. Its name is: tBodyGyroJerkMag-std()
+V255: It is the Median absolute deviation  of BodyGyroJerkMag. Its name is: tBodyGyroJerkMag-mad()
+V256: It is the Largest value in array of BodyGyroJerkMag. Its name is: tBodyGyroJerkMag-max()
+V257: It is the Smallest value in array of BodyGyroJerkMag. Its name is: tBodyGyroJerkMag-min()
+V258: It is the Signal magnitude area of BodyGyroJerkMag. Its name is: tBodyGyroJerkMag-sma()
+V259: It is the Energy measure. Sum of the squares divided by the number of values. of BodyGyroJerkMag. Its name is: tBodyGyroJerkMag-energy()
+V260: It is the Interquartile range  of BodyGyroJerkMag. Its name is: tBodyGyroJerkMag-iqr()
+V261: It is the Signal entropy of BodyGyroJerkMag. Its name is: tBodyGyroJerkMag-entropy()
+V262: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroJerkMag1. Its name is: tBodyGyroJerkMag-arCoeff()1
+V263: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroJerkMag2. Its name is: tBodyGyroJerkMag-arCoeff()2
+V264: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroJerkMag3. Its name is: tBodyGyroJerkMag-arCoeff()3
+V265: It is the Autorregresion coefficients with Burg order equal to 4 of BodyGyroJerkMag4. Its name is: tBodyGyroJerkMag-arCoeff()4
+V266: It is the mean value of BodyAcc-X. Its name is: fBodyAcc-mean()-X
+V267: It is the mean value of BodyAcc-Y. Its name is: fBodyAcc-mean()-Y
+V268: It is the mean value of BodyAcc-Z. Its name is: fBodyAcc-mean()-Z
+V269: It is the standard deviation of BodyAcc-X. Its name is: fBodyAcc-std()-X
+V270: It is the standard deviation of BodyAcc-Y. Its name is: fBodyAcc-std()-Y
+V271: It is the standard deviation of BodyAcc-Z. Its name is: fBodyAcc-std()-Z
+V272: It is the Median absolute deviation  of BodyAcc-X. Its name is: fBodyAcc-mad()-X
+V273: It is the Median absolute deviation  of BodyAcc-Y. Its name is: fBodyAcc-mad()-Y
+V274: It is the Median absolute deviation  of BodyAcc-Z. Its name is: fBodyAcc-mad()-Z
+V275: It is the Largest value in array of BodyAcc-X. Its name is: fBodyAcc-max()-X
+V276: It is the Largest value in array of BodyAcc-Y. Its name is: fBodyAcc-max()-Y
+V277: It is the Largest value in array of BodyAcc-Z. Its name is: fBodyAcc-max()-Z
+V278: It is the Smallest value in array of BodyAcc-X. Its name is: fBodyAcc-min()-X
+V279: It is the Smallest value in array of BodyAcc-Y. Its name is: fBodyAcc-min()-Y
+V280: It is the Smallest value in array of BodyAcc-Z. Its name is: fBodyAcc-min()-Z
+V281: It is the Signal magnitude area of BodyAcc. Its name is: fBodyAcc-sma()
+V282: It is the Energy measure. Sum of the squares divided by the number of values. of BodyAcc-X. Its name is: fBodyAcc-energy()-X
+V283: It is the Energy measure. Sum of the squares divided by the number of values. of BodyAcc-Y. Its name is: fBodyAcc-energy()-Y
+V284: It is the Energy measure. Sum of the squares divided by the number of values. of BodyAcc-Z. Its name is: fBodyAcc-energy()-Z
+V285: It is the Interquartile range  of BodyAcc-X. Its name is: fBodyAcc-iqr()-X
+V286: It is the Interquartile range  of BodyAcc-Y. Its name is: fBodyAcc-iqr()-Y
+V287: It is the Interquartile range  of BodyAcc-Z. Its name is: fBodyAcc-iqr()-Z
+V288: It is the Signal entropy of BodyAcc-X. Its name is: fBodyAcc-entropy()-X
+V289: It is the Signal entropy of BodyAcc-Y. Its name is: fBodyAcc-entropy()-Y
+V290: It is the Signal entropy of BodyAcc-Z. Its name is: fBodyAcc-entropy()-Z
+V291: It is the index of the frequency component with largest magnitude of BodyAccMag-X. Its name is: fBodyAcc-maxInds-X
+V292: It is the index of the frequency component with largest magnitude of BodyAccMag-Y. Its name is: fBodyAcc-maxInds-Y
+V293: It is the index of the frequency component with largest magnitude of BodyAccMag-Z. Its name is: fBodyAcc-maxInds-Z
+V294: It is the Weighted average of the frequency components to obtain a mean frequency of BodyAcc-X. Its name is: fBodyAcc-meanFreq()-X
+V295: It is the Weighted average of the frequency components to obtain a mean frequency of BodyAcc-Y. Its name is: fBodyAcc-meanFreq()-Y
+V296: It is the Weighted average of the frequency components to obtain a mean frequency of BodyAcc-Z. Its name is: fBodyAcc-meanFreq()-Z
+V297: It is the skewness of the frequency domain signal of BodyAcc-X. Its name is: fBodyAcc-skewness()-X
+V298: It is the kurtosis of the frequency domain signal of BodyAcc-X. Its name is: fBodyAcc-kurtosis()-X
+V299: It is the skewness of the frequency domain signal of BodyAcc-Y. Its name is: fBodyAcc-skewness()-Y
+V300: It is the kurtosis of the frequency domain signal of BodyAcc-Y. Its name is: fBodyAcc-kurtosis()-Y
+V301: It is the skewness of the frequency domain signal of BodyAcc-Z. Its name is: fBodyAcc-skewness()-Z
+V302: It is the kurtosis of the frequency domain signal of BodyAcc-Z. Its name is: fBodyAcc-kurtosis()-Z
+V303: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-1,8. Its name is: fBodyAcc-bandsEnergy()-1,8
+V304: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-9,16. Its name is: fBodyAcc-bandsEnergy()-9,16
+V305: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-17,24. Its name is: fBodyAcc-bandsEnergy()-17,24
+V306: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-25,32. Its name is: fBodyAcc-bandsEnergy()-25,32
+V307: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-33,40. Its name is: fBodyAcc-bandsEnergy()-33,40
+V308: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-41,48. Its name is: fBodyAcc-bandsEnergy()-41,48
+V309: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-49,56. Its name is: fBodyAcc-bandsEnergy()-49,56
+V310: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-57,64. Its name is: fBodyAcc-bandsEnergy()-57,64
+V311: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-1,16. Its name is: fBodyAcc-bandsEnergy()-1,16
+V312: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-17,32. Its name is: fBodyAcc-bandsEnergy()-17,32
+V313: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-33,48. Its name is: fBodyAcc-bandsEnergy()-33,48
+V314: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-49,64. Its name is: fBodyAcc-bandsEnergy()-49,64
+V315: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-1,24. Its name is: fBodyAcc-bandsEnergy()-1,24
+V316: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-25,48. Its name is: fBodyAcc-bandsEnergy()-25,48
+V317: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-1,8. Its name is: fBodyAcc-bandsEnergy()-1,8
+V318: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-9,16. Its name is: fBodyAcc-bandsEnergy()-9,16
+V319: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-17,24. Its name is: fBodyAcc-bandsEnergy()-17,24
+V320: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-25,32. Its name is: fBodyAcc-bandsEnergy()-25,32
+V321: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-33,40. Its name is: fBodyAcc-bandsEnergy()-33,40
+V322: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-41,48. Its name is: fBodyAcc-bandsEnergy()-41,48
+V323: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-49,56. Its name is: fBodyAcc-bandsEnergy()-49,56
+V324: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-57,64. Its name is: fBodyAcc-bandsEnergy()-57,64
+V325: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-1,16. Its name is: fBodyAcc-bandsEnergy()-1,16
+V326: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-17,32. Its name is: fBodyAcc-bandsEnergy()-17,32
+V327: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-33,48. Its name is: fBodyAcc-bandsEnergy()-33,48
+V328: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-49,64. Its name is: fBodyAcc-bandsEnergy()-49,64
+V329: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-1,24. Its name is: fBodyAcc-bandsEnergy()-1,24
+V330: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-25,48. Its name is: fBodyAcc-bandsEnergy()-25,48
+V331: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-1,8. Its name is: fBodyAcc-bandsEnergy()-1,8
+V332: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-9,16. Its name is: fBodyAcc-bandsEnergy()-9,16
+V333: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-17,24. Its name is: fBodyAcc-bandsEnergy()-17,24
+V334: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-25,32. Its name is: fBodyAcc-bandsEnergy()-25,32
+V335: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-33,40. Its name is: fBodyAcc-bandsEnergy()-33,40
+V336: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-41,48. Its name is: fBodyAcc-bandsEnergy()-41,48
+V337: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-49,56. Its name is: fBodyAcc-bandsEnergy()-49,56
+V338: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-57,64. Its name is: fBodyAcc-bandsEnergy()-57,64
+V339: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-1,16. Its name is: fBodyAcc-bandsEnergy()-1,16
+V340: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-17,32. Its name is: fBodyAcc-bandsEnergy()-17,32
+V341: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-33,48. Its name is: fBodyAcc-bandsEnergy()-33,48
+V342: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-49,64. Its name is: fBodyAcc-bandsEnergy()-49,64
+V343: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-1,24. Its name is: fBodyAcc-bandsEnergy()-1,24
+V344: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAcc-25,48. Its name is: fBodyAcc-bandsEnergy()-25,48
+V345: It is the mean value of BodyAccJerk-X. Its name is: fBodyAccJerk-mean()-X
+V346: It is the mean value of BodyAccJerk-Y. Its name is: fBodyAccJerk-mean()-Y
+V347: It is the mean value of BodyAccJerk-Z. Its name is: fBodyAccJerk-mean()-Z
+V348: It is the standard deviation of BodyAccJerk-X. Its name is: fBodyAccJerk-std()-X
+V349: It is the standard deviation of BodyAccJerk-Y. Its name is: fBodyAccJerk-std()-Y
+V350: It is the standard deviation of BodyAccJerk-Z. Its name is: fBodyAccJerk-std()-Z
+V351: It is the Median absolute deviation  of BodyAccJerk-X. Its name is: fBodyAccJerk-mad()-X
+V352: It is the Median absolute deviation  of BodyAccJerk-Y. Its name is: fBodyAccJerk-mad()-Y
+V353: It is the Median absolute deviation  of BodyAccJerk-Z. Its name is: fBodyAccJerk-mad()-Z
+V354: It is the Largest value in array of BodyAccJerk-X. Its name is: fBodyAccJerk-max()-X
+V355: It is the Largest value in array of BodyAccJerk-Y. Its name is: fBodyAccJerk-max()-Y
+V356: It is the Largest value in array of BodyAccJerk-Z. Its name is: fBodyAccJerk-max()-Z
+V357: It is the Smallest value in array of BodyAccJerk-X. Its name is: fBodyAccJerk-min()-X
+V358: It is the Smallest value in array of BodyAccJerk-Y. Its name is: fBodyAccJerk-min()-Y
+V359: It is the Smallest value in array of BodyAccJerk-Z. Its name is: fBodyAccJerk-min()-Z
+V360: It is the Signal magnitude area of BodyAccJerk. Its name is: fBodyAccJerk-sma()
+V361: It is the Energy measure. Sum of the squares divided by the number of values. of BodyAccJerk-X. Its name is: fBodyAccJerk-energy()-X
+V362: It is the Energy measure. Sum of the squares divided by the number of values. of BodyAccJerk-Y. Its name is: fBodyAccJerk-energy()-Y
+V363: It is the Energy measure. Sum of the squares divided by the number of values. of BodyAccJerk-Z. Its name is: fBodyAccJerk-energy()-Z
+V364: It is the Interquartile range  of BodyAccJerk-X. Its name is: fBodyAccJerk-iqr()-X
+V365: It is the Interquartile range  of BodyAccJerk-Y. Its name is: fBodyAccJerk-iqr()-Y
+V366: It is the Interquartile range  of BodyAccJerk-Z. Its name is: fBodyAccJerk-iqr()-Z
+V367: It is the Signal entropy of BodyAccJerk-X. Its name is: fBodyAccJerk-entropy()-X
+V368: It is the Signal entropy of BodyAccJerk-Y. Its name is: fBodyAccJerk-entropy()-Y
+V369: It is the Signal entropy of BodyAccJerk-Z. Its name is: fBodyAccJerk-entropy()-Z
+V370: It is the index of the frequency component with largest magnitude of BodyAccJerk-X. Its name is: fBodyAccJerk-maxInds-X
+V371: It is the index of the frequency component with largest magnitude of BodyAccJerk-Y. Its name is: fBodyAccJerk-maxInds-Y
+V372: It is the index of the frequency component with largest magnitude of BodyAccJerk-Z. Its name is: fBodyAccJerk-maxInds-Z
+V373: It is the Weighted average of the frequency components to obtain a mean frequency of BodyAccJerk-X. Its name is: fBodyAccJerk-meanFreq()-X
+V374: It is the Weighted average of the frequency components to obtain a mean frequency of BodyAccJerk-Y. Its name is: fBodyAccJerk-meanFreq()-Y
+V375: It is the Weighted average of the frequency components to obtain a mean frequency of BodyAccJerk-Z. Its name is: fBodyAccJerk-meanFreq()-Z
+V376: It is the skewness of the frequency domain signal of BodyAccJerk-X. Its name is: fBodyAccJerk-skewness()-X
+V377: It is the kurtosis of the frequency domain signal of BodyAccJerk-X. Its name is: fBodyAccJerk-kurtosis()-X
+V378: It is the skewness of the frequency domain signal of BodyAccJerk-Y. Its name is: fBodyAccJerk-skewness()-Y
+V379: It is the kurtosis of the frequency domain signal of BodyAccJerk-Y. Its name is: fBodyAccJerk-kurtosis()-Y
+V380: It is the skewness of the frequency domain signal of BodyAccJerk-Z. Its name is: fBodyAccJerk-skewness()-Z
+V381: It is the kurtosis of the frequency domain signal of BodyAccJerk-Z. Its name is: fBodyAccJerk-kurtosis()-Z
+V382: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-1,8. Its name is: fBodyAccJerk-bandsEnergy()-1,8
+V383: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-9,16. Its name is: fBodyAccJerk-bandsEnergy()-9,16
+V384: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-17,24. Its name is: fBodyAccJerk-bandsEnergy()-17,24
+V385: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-25,32. Its name is: fBodyAccJerk-bandsEnergy()-25,32
+V386: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-33,40. Its name is: fBodyAccJerk-bandsEnergy()-33,40
+V387: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-41,48. Its name is: fBodyAccJerk-bandsEnergy()-41,48
+V388: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-49,56. Its name is: fBodyAccJerk-bandsEnergy()-49,56
+V389: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-57,64. Its name is: fBodyAccJerk-bandsEnergy()-57,64
+V390: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-1,16. Its name is: fBodyAccJerk-bandsEnergy()-1,16
+V391: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-17,32. Its name is: fBodyAccJerk-bandsEnergy()-17,32
+V392: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-33,48. Its name is: fBodyAccJerk-bandsEnergy()-33,48
+V393: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-49,64. Its name is: fBodyAccJerk-bandsEnergy()-49,64
+V394: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-1,24. Its name is: fBodyAccJerk-bandsEnergy()-1,24
+V395: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-25,48. Its name is: fBodyAccJerk-bandsEnergy()-25,48
+V396: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-1,8. Its name is: fBodyAccJerk-bandsEnergy()-1,8
+V397: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-9,16. Its name is: fBodyAccJerk-bandsEnergy()-9,16
+V398: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-17,24. Its name is: fBodyAccJerk-bandsEnergy()-17,24
+V399: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-25,32. Its name is: fBodyAccJerk-bandsEnergy()-25,32
+V400: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-33,40. Its name is: fBodyAccJerk-bandsEnergy()-33,40
+V401: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-41,48. Its name is: fBodyAccJerk-bandsEnergy()-41,48
+V402: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-49,56. Its name is: fBodyAccJerk-bandsEnergy()-49,56
+V403: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-57,64. Its name is: fBodyAccJerk-bandsEnergy()-57,64
+V404: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-1,16. Its name is: fBodyAccJerk-bandsEnergy()-1,16
+V405: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-17,32. Its name is: fBodyAccJerk-bandsEnergy()-17,32
+V406: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-33,48. Its name is: fBodyAccJerk-bandsEnergy()-33,48
+V407: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-49,64. Its name is: fBodyAccJerk-bandsEnergy()-49,64
+V408: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-1,24. Its name is: fBodyAccJerk-bandsEnergy()-1,24
+V409: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-25,48. Its name is: fBodyAccJerk-bandsEnergy()-25,48
+V410: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-1,8. Its name is: fBodyAccJerk-bandsEnergy()-1,8
+V411: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-9,16. Its name is: fBodyAccJerk-bandsEnergy()-9,16
+V412: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-17,24. Its name is: fBodyAccJerk-bandsEnergy()-17,24
+V413: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-25,32. Its name is: fBodyAccJerk-bandsEnergy()-25,32
+V414: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-33,40. Its name is: fBodyAccJerk-bandsEnergy()-33,40
+V415: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-41,48. Its name is: fBodyAccJerk-bandsEnergy()-41,48
+V416: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-49,56. Its name is: fBodyAccJerk-bandsEnergy()-49,56
+V417: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-57,64. Its name is: fBodyAccJerk-bandsEnergy()-57,64
+V418: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-1,16. Its name is: fBodyAccJerk-bandsEnergy()-1,16
+V419: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-17,32. Its name is: fBodyAccJerk-bandsEnergy()-17,32
+V420: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-33,48. Its name is: fBodyAccJerk-bandsEnergy()-33,48
+V421: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-49,64. Its name is: fBodyAccJerk-bandsEnergy()-49,64
+V422: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-1,24. Its name is: fBodyAccJerk-bandsEnergy()-1,24
+V423: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyAccJerk-25,48. Its name is: fBodyAccJerk-bandsEnergy()-25,48
+V424: It is the mean value of BodyGyro-X. Its name is: fBodyGyro-mean()-X
+V425: It is the mean value of BodyGyro-Y. Its name is: fBodyGyro-mean()-Y
+V426: It is the mean value of BodyGyro-Z. Its name is: fBodyGyro-mean()-Z
+V427: It is the standard deviation of BodyGyro-X. Its name is: fBodyGyro-std()-X
+V428: It is the standard deviation of BodyGyro-Y. Its name is: fBodyGyro-std()-Y
+V429: It is the standard deviation of BodyGyro-Z. Its name is: fBodyGyro-std()-Z
+V430: It is the Median absolute deviation  of BodyGyro-X. Its name is: fBodyGyro-mad()-X
+V431: It is the Median absolute deviation  of BodyGyro-Y. Its name is: fBodyGyro-mad()-Y
+V432: It is the Median absolute deviation  of BodyGyro-Z. Its name is: fBodyGyro-mad()-Z
+V433: It is the Largest value in array of BodyGyro-X. Its name is: fBodyGyro-max()-X
+V434: It is the Largest value in array of BodyGyro-Y. Its name is: fBodyGyro-max()-Y
+V435: It is the Largest value in array of BodyGyro-Z. Its name is: fBodyGyro-max()-Z
+V436: It is the Smallest value in array of BodyGyro-X. Its name is: fBodyGyro-min()-X
+V437: It is the Smallest value in array of BodyGyro-Y. Its name is: fBodyGyro-min()-Y
+V438: It is the Smallest value in array of BodyGyro-Z. Its name is: fBodyGyro-min()-Z
+V439: It is the Signal magnitude area of BodyGyro. Its name is: fBodyGyro-sma()
+V440: It is the Energy measure. Sum of the squares divided by the number of values. of BodyGyro-X. Its name is: fBodyGyro-energy()-X
+V441: It is the Energy measure. Sum of the squares divided by the number of values. of BodyGyro-Y. Its name is: fBodyGyro-energy()-Y
+V442: It is the Energy measure. Sum of the squares divided by the number of values. of BodyGyro-Z. Its name is: fBodyGyro-energy()-Z
+V443: It is the Interquartile range  of BodyGyro-X. Its name is: fBodyGyro-iqr()-X
+V444: It is the Interquartile range  of BodyGyro-Y. Its name is: fBodyGyro-iqr()-Y
+V445: It is the Interquartile range  of BodyGyro-Z. Its name is: fBodyGyro-iqr()-Z
+V446: It is the Signal entropy of BodyGyro-X. Its name is: fBodyGyro-entropy()-X
+V447: It is the Signal entropy of BodyGyro-Y. Its name is: fBodyGyro-entropy()-Y
+V448: It is the Signal entropy of BodyGyro-Z. Its name is: fBodyGyro-entropy()-Z
+V449: It is the index of the frequency component with largest magnitude of BodyGyro-X. Its name is: fBodyGyro-maxInds-X
+V450: It is the index of the frequency component with largest magnitude of BodyGyro-Y. Its name is: fBodyGyro-maxInds-Y
+V451: It is the index of the frequency component with largest magnitude of BodyGyro-Z. Its name is: fBodyGyro-maxInds-Z
+V452: It is the Weighted average of the frequency components to obtain a mean frequency of BodyGyro-X. Its name is: fBodyGyro-meanFreq()-X
+V453: It is the Weighted average of the frequency components to obtain a mean frequency of BodyGyro-Y. Its name is: fBodyGyro-meanFreq()-Y
+V454: It is the Weighted average of the frequency components to obtain a mean frequency of BodyGyro-Z. Its name is: fBodyGyro-meanFreq()-Z
+V455: It is the skewness of the frequency domain signal of BodyGyro-X. Its name is: fBodyGyro-skewness()-X
+V456: It is the kurtosis of the frequency domain signal of BodyGyro-X. Its name is: fBodyGyro-kurtosis()-X
+V457: It is the skewness of the frequency domain signal of BodyGyro-Y. Its name is: fBodyGyro-skewness()-Y
+V458: It is the kurtosis of the frequency domain signal of BodyGyro-Y. Its name is: fBodyGyro-kurtosis()-Y
+V459: It is the skewness of the frequency domain signal of BodyGyro-Z. Its name is: fBodyGyro-skewness()-Z
+V460: It is the kurtosis of the frequency domain signal of BodyGyro-Z. Its name is: fBodyGyro-kurtosis()-Z
+V461: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-1,8. Its name is: fBodyGyro-bandsEnergy()-1,8
+V462: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-9,16. Its name is: fBodyGyro-bandsEnergy()-9,16
+V463: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-17,24. Its name is: fBodyGyro-bandsEnergy()-17,24
+V464: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-25,32. Its name is: fBodyGyro-bandsEnergy()-25,32
+V465: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-33,40. Its name is: fBodyGyro-bandsEnergy()-33,40
+V466: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-41,48. Its name is: fBodyGyro-bandsEnergy()-41,48
+V467: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-49,56. Its name is: fBodyGyro-bandsEnergy()-49,56
+V468: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-57,64. Its name is: fBodyGyro-bandsEnergy()-57,64
+V469: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-1,16. Its name is: fBodyGyro-bandsEnergy()-1,16
+V470: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-17,32. Its name is: fBodyGyro-bandsEnergy()-17,32
+V471: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-33,48. Its name is: fBodyGyro-bandsEnergy()-33,48
+V472: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-49,64. Its name is: fBodyGyro-bandsEnergy()-49,64
+V473: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-1,24. Its name is: fBodyGyro-bandsEnergy()-1,24
+V474: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-25,48. Its name is: fBodyGyro-bandsEnergy()-25,48
+V475: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-1,8. Its name is: fBodyGyro-bandsEnergy()-1,8
+V476: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-9,16. Its name is: fBodyGyro-bandsEnergy()-9,16
+V477: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-17,24. Its name is: fBodyGyro-bandsEnergy()-17,24
+V478: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-25,32. Its name is: fBodyGyro-bandsEnergy()-25,32
+V479: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-33,40. Its name is: fBodyGyro-bandsEnergy()-33,40
+V480: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-41,48. Its name is: fBodyGyro-bandsEnergy()-41,48
+V481: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-49,56. Its name is: fBodyGyro-bandsEnergy()-49,56
+V482: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-57,64. Its name is: fBodyGyro-bandsEnergy()-57,64
+V483: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-1,16. Its name is: fBodyGyro-bandsEnergy()-1,16
+V484: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-17,32. Its name is: fBodyGyro-bandsEnergy()-17,32
+V485: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-33,48. Its name is: fBodyGyro-bandsEnergy()-33,48
+V486: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-49,64. Its name is: fBodyGyro-bandsEnergy()-49,64
+V487: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-1,24. Its name is: fBodyGyro-bandsEnergy()-1,24
+V488: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-25,48. Its name is: fBodyGyro-bandsEnergy()-25,48
+V489: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-1,8. Its name is: fBodyGyro-bandsEnergy()-1,8
+V490: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-9,16. Its name is: fBodyGyro-bandsEnergy()-9,16
+V491: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-17,24. Its name is: fBodyGyro-bandsEnergy()-17,24
+V492: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-25,32. Its name is: fBodyGyro-bandsEnergy()-25,32
+V493: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-33,40. Its name is: fBodyGyro-bandsEnergy()-33,40
+V494: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-41,48. Its name is: fBodyGyro-bandsEnergy()-41,48
+V495: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-49,56. Its name is: fBodyGyro-bandsEnergy()-49,56
+V496: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-57,64. Its name is: fBodyGyro-bandsEnergy()-57,64
+V497: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-1,16. Its name is: fBodyGyro-bandsEnergy()-1,16
+V498: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-17,32. Its name is: fBodyGyro-bandsEnergy()-17,32
+V499: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-33,48. Its name is: fBodyGyro-bandsEnergy()-33,48
+V500: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-49,64. Its name is: fBodyGyro-bandsEnergy()-49,64
+V501: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-1,24. Its name is: fBodyGyro-bandsEnergy()-1,24
+V502: It is the Energy of a frequency interval within the 64 bins of the FFT of each window of BodyGyro-25,48. Its name is: fBodyGyro-bandsEnergy()-25,48
+V503: It is the mean value of BodyAccMag. Its name is: fBodyAccMag-mean()
+V504: It is the standard deviation of BodyAccMag. Its name is: fBodyAccMag-std()
+V505: It is the Median absolute deviation  of BodyAccMag. Its name is: fBodyAccMag-mad()
+V506: It is the Largest value in array of BodyAccMag. Its name is: fBodyAccMag-max()
+V507: It is the Smallest value in array of BodyAccMag. Its name is: fBodyAccMag-min()
+V508: It is the Signal magnitude area of BodyAccMag. Its name is: fBodyAccMag-sma()
+V509: It is the Energy measure. Sum of the squares divided by the number of values. of BodyAccMag. Its name is: fBodyAccMag-energy()
+V510: It is the Interquartile range  of BodyAccMag. Its name is: fBodyAccMag-iqr()
+V511: It is the Signal entropy of BodyAccMag. Its name is: fBodyAccMag-entropy()
+V512: It is the index of the frequency component with largest magnitude of BodyAccJerk. Its name is: fBodyAccMag-maxInds
+V513: It is the Weighted average of the frequency components to obtain a mean frequency of BodyAccMag. Its name is: fBodyAccMag-meanFreq()
+V514: It is the skewness of the frequency domain signal of BodyAccMag. Its name is: fBodyAccMag-skewness()
+V515: It is the kurtosis of the frequency domain signal of BodyAccMag. Its name is: fBodyAccMag-kurtosis()
+V516: It is the mean value of BodyBodyAccJerkMag. Its name is: fBodyBodyAccJerkMag-mean()
+V517: It is the standard deviation of BodyBodyAccJerkMag. Its name is: fBodyBodyAccJerkMag-std()
+V518: It is the Median absolute deviation  of BodyBodyAccJerkMag. Its name is: fBodyBodyAccJerkMag-mad()
+V519: It is the Largest value in array of BodyBodyAccJerkMag. Its name is: fBodyBodyAccJerkMag-max()
+V520: It is the Smallest value in array of BodyBodyAccJerkMag. Its name is: fBodyBodyAccJerkMag-min()
+V521: It is the Signal magnitude area of BodyBodyAccJerkMag. Its name is: fBodyBodyAccJerkMag-sma()
+V522: It is the Energy measure. Sum of the squares divided by the number of values. of BodyBodyAccJerkMag. Its name is: fBodyBodyAccJerkMag-energy()
+V523: It is the Interquartile range  of BodyBodyAccJerkMag. Its name is: fBodyBodyAccJerkMag-iqr()
+V524: It is the Signal entropy of BodyBodyAccJerkMag. Its name is: fBodyBodyAccJerkMag-entropy()
+V525: It is the index of the frequency component with largest magnitude of BodyBodyAccJerkMag. Its name is: fBodyBodyAccJerkMag-maxInds
+V526: It is the Weighted average of the frequency components to obtain a mean frequency of BodyBodyAccJerkMag. Its name is: fBodyBodyAccJerkMag-meanFreq()
+V527: It is the skewness of the frequency domain signal of BodyBodyAccJerkMag. Its name is: fBodyBodyAccJerkMag-skewness()
+V528: It is the kurtosis of the frequency domain signal of BodyBodyAccJerkMag. Its name is: fBodyBodyAccJerkMag-kurtosis()
+V529: It is the mean value of BodyBodyGyroMag. Its name is: fBodyBodyGyroMag-mean()
+V530: It is the standard deviation of BodyBodyGyroMag. Its name is: fBodyBodyGyroMag-std()
+V531: It is the Median absolute deviation  of BodyBodyGyroMag. Its name is: fBodyBodyGyroMag-mad()
+V532: It is the Largest value in array of BodyBodyGyroMag. Its name is: fBodyBodyGyroMag-max()
+V533: It is the Smallest value in array of BodyBodyGyroMag. Its name is: fBodyBodyGyroMag-min()
+V534: It is the Signal magnitude area of BodyBodyGyroMag. Its name is: fBodyBodyGyroMag-sma()
+V535: It is the Energy measure. Sum of the squares divided by the number of values. of BodyBodyGyroMag. Its name is: fBodyBodyGyroMag-energy()
+V536: It is the Interquartile range  of BodyBodyGyroMag. Its name is: fBodyBodyGyroMag-iqr()
+V537: It is the Signal entropy of BodyBodyGyroMag. Its name is: fBodyBodyGyroMag-entropy()
+V538: It is the index of the frequency component with largest magnitude of BodyBodyAccJerkMag. Its name is: fBodyBodyGyroMag-maxInds
+V539: It is the Weighted average of the frequency components to obtain a mean frequency of BodyBodyGyroMag. Its name is: fBodyBodyGyroMag-meanFreq()
+V540: It is the skewness of the frequency domain signal of BodyBodyGyroMag. Its name is: fBodyBodyGyroMag-skewness()
+V541: It is the kurtosis of the frequency domain signal of BodyBodyGyroMag. Its name is: fBodyBodyGyroMag-kurtosis()
+V542: It is the mean value of BodyBodyGyroJerkMag. Its name is: fBodyBodyGyroJerkMag-mean()
+V543: It is the standard deviation of BodyBodyGyroJerkMag. Its name is: fBodyBodyGyroJerkMag-std()
+V544: It is the Median absolute deviation  of BodyBodyGyroJerkMag. Its name is: fBodyBodyGyroJerkMag-mad()
+V545: It is the Largest value in array of BodyBodyGyroJerkMag. Its name is: fBodyBodyGyroJerkMag-max()
+V546: It is the Smallest value in array of BodyBodyGyroJerkMag. Its name is: fBodyBodyGyroJerkMag-min()
+V547: It is the Signal magnitude area of BodyBodyGyroJerkMag. Its name is: fBodyBodyGyroJerkMag-sma()
+V548: It is the Energy measure. Sum of the squares divided by the number of values. of BodyBodyGyroJerkMag. Its name is: fBodyBodyGyroJerkMag-energy()
+V549: It is the Interquartile range  of BodyBodyGyroJerkMag. Its name is: fBodyBodyGyroJerkMag-iqr()
+V550: It is the Signal entropy of BodyBodyGyroJerkMag. Its name is: fBodyBodyGyroJerkMag-entropy()
+V551: It is the index of the frequency component with largest magnitude of BodyBodyGyroJerkMag. Its name is: fBodyBodyGyroJerkMag-maxInds
+V552: It is the Weighted average of the frequency components to obtain a mean frequency of BodyBodyGyroJerkMag. Its name is: fBodyBodyGyroJerkMag-meanFreq()
+V553: It is the skewness of the frequency domain signal of BodyBodyGyroJerkMag. Its name is: fBodyBodyGyroJerkMag-skewness()
+V554: It is the kurtosis of the frequency domain signal of BodyBodyGyroJerkMag. Its name is: fBodyBodyGyroJerkMag-kurtosis()
+V555: It is the angle of gravity mean of BodyAccMean. Its name is: angle(tBodyAccMean,gravity)
+V556: It is the angle of gravity mean of BodyAccJerk. Its name is: angle(tBodyAccJerkMean),gravityMean)
+V557: It is the angle of gravity mean of BodyGyroMean. Its name is: angle(tBodyGyroMean,gravityMean)
+V558: It is the angle of gravity mean of BodyAccJerk. Its name is: angle(tBodyGyroJerkMean,gravityMean)
+V559: It is the angle of gravity mean of X. Its name is: angle(X,gravityMean)
+V560: It is the angle of gravity mean of Y. Its name is: angle(Y,gravityMean)
+V561: It is the angle of gravity mean of Z. Its name is: angle(Z,gravityMean)
+
+
+
+
+
+#######################################################################################################################
+###                      STUDY DESING(HOW TO COLLECT DATA)                                                          ###
+#######################################################################################################################
+
+1) Set in R directory where you are goning to work
+2) Create directory if it is needed
+3) Asign to variable arch_url the link where data set is.
+4) Set in R new directory where to work
+5) Download the file using download.file
+6) Read file of training and test set, in R.
+
+
+EXAMPLE:
+
+
+
+1) Define in R directory where you are goning to work
+       
+        specdata<-setwd ("C:/Users/GMORENO/Documents/R/cleaning data/")
+
+2) Create directory if it is needed
+
+        if(!file.exists("proyecto")){
+  
+            dir.create("proyecto")  
+  
+           }
+
+3) Asign to variable arch_url the link where data set is.
+
+         arch_url<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+
+4) Set in R new directory where to work
+         specdata<-setwd ("C:/Users/GMORENO/Documents/R/cleaning data/proyecto/")
+
+5) Download the file using download.file
+
+         download.file(arch_url, destfile="./dataset.zip")
+
+6) Read file of training and test set, in R.
+
+         training<- read.table(unz("dataset.zip", "UCI HAR Dataset/train/X_train.txt"))
+         test<- read.table(unz("dataset.zip", "UCI HAR Dataset/test/X_test.txt"))
+
+
+
+
+
+
+
+
+
